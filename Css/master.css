@@ -1,0 +1,183 @@
+:root {
+  --dark: #19283f;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: aqua;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: greenyellow;
+}
+.search {
+  margin-left: 5px;
+  border-left: 1px solid aqua;
+  /* color: aqua; */
+}
+.search svg {
+  color: aqua;
+}
+.navbar .navbar-toggler {
+  border-color: white;
+  font-size: 20px;
+  color: white;
+}
+.landing {
+  background-color: #19283f;
+  height: calc(100vh - 72px);
+}
+
+.btn:checked {
+  outline: yellow solid 5px;
+}
+
+.Title::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #33d1cc;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* .Mainwork::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: rgb(221, 184, 247);
+  position: absolute;
+  top: 20px;
+  opacity: 50%; */
+/* } */
+
+.Feature .icon-holder {
+  height: 200px;
+}
+.Feature .icon-holder svg {
+  left: 50%;
+  transform: translate(-50%);
+}
+.number {
+  font-size: 12rem;
+  color: #eff7fa;
+}
+.icon {
+  font-size: 5rem;
+  color: #33d1cc;
+}
+.tab-content div {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+.Mainwork {
+  background-color: #eff7fa;
+}
+.Mainwork ul .active {
+  background-color: rgb(255, 42, 0);
+  color: rgba(255, 155, 84, 0.978);
+}
+.Mainwork ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.Mainwork ul li:not(.active):hover {
+  color: rgb(255, 42, 0);
+}
+.Mainwork .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.Mainwork .box::before {
+  content: "Application";
+  position: absolute;
+  background-color: rgb(51 209 204 / 76%);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+  transform: translate(calc(-100% - 5px));
+}
+
+.Mainwork .box:hover::before {
+  transform: translate(0);
+}
+
+.description {
+  max-width: 500px;
+}
+
+.Team {
+  background-color: #eff7fa;
+}
+.Team h3 {
+  color: #ffc400;
+}
+.TeamName {
+  height: 50px;
+  background-color: #33d1cc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project {
+  background-color: #19283f;
+  height: 300px;
+}
+.Subscribe {
+  background-color: #ffc400;
+}
+.Mail {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.Mail:focus {
+  outline: none;
+}
+.Mail::placeholder {
+  color: white;
+}
+.Subscribe .btn {
+  color: #ffc400;
+  background-color: var(--dark);
+}
+footer {
+  background-color: var(--dark);
+}
+.creator {
+  color: #33d1cc;
+}
+.inc {
+  color: #ffc400;
+}
+.contact ul svg {
+  width: 25px;
+  height: 25px;
+  /* background-color: #1877f2; */
+}
+footer ul li .facebook {
+  background-color: #1877f2;
+}
+footer ul li .twitter {
+  background-color: #1da1f2;
+}
+footer ul li .linkedin {
+  background-color: #0077b5;
+}
+footer ul li .youtube {
+  background-color: #ff0000;
+}
