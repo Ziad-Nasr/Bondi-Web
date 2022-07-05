@@ -205,7 +205,9 @@ footer ul li .linkedin {
 footer ul li .youtube {
   background-color: #ff0000;
 }
-
+.mail {
+  width: 100%;
+}
 @media (max-width: 768px) {
   .landing {
     height: 400px;
@@ -213,5 +215,8 @@ footer ul li .youtube {
   .social {
     display: flex;
     justify-content: center;
+  }
+  .mail {
+    width: 90%;
   }
 }
