@@ -210,4 +210,8 @@ footer ul li .youtube {
   .landing {
     height: 400px;
   }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
 }
