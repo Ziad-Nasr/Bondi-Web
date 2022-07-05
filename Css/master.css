@@ -7,7 +7,21 @@ body {
 .navbar {
   background-color: var(--dark);
 }
-
+@media (max-width: 992px) {
+  .bondi {
+    margin-left: 3px !important;
+  }
+}
+@media (max-width: 992px) {
+  .btndropdown {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    margin-left: 20px;
+  }
+}
 .navbar .navbar-nav .nav-link {
   color: aqua;
 }
@@ -18,6 +32,16 @@ body {
   margin-left: 5px;
   border-left: 1px solid aqua;
   /* color: aqua; */
+}
+@media (max-width: 992px) {
+  .btndropdown {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .btn {
+    margin-left: 20px;
+  }
 }
 .search svg {
   color: aqua;
@@ -72,11 +96,11 @@ body {
   font-size: 5rem;
   color: #33d1cc;
 }
-.tab-content div {
+/* .tab-content div {
   display: flex !important;
   flex-direction: row;
   justify-content: center;
-}
+} */
 .Mainwork {
   background-color: #eff7fa;
 }
@@ -180,4 +204,10 @@ footer ul li .linkedin {
 }
 footer ul li .youtube {
   background-color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .landing {
+    height: 400px;
+  }
 }
